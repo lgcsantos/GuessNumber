@@ -34,19 +34,19 @@ function handlesubmit(e){
   
       if(numberDrawn == kick){
         playAgain();
-        Status.innerHTML = 'Prabéns, você acertou!'
-        result.STYLE.transition = '0.4s';
-        result.STYLE.backgroundColor = '#37c978';
-        result.STYLE.color = '#fff';
-        STATUS.STYLE.color = "fff";
+        status.innerHTML = 'Prabéns, você acertou!'
+        result.style.transition = '0.4s';
+        result.style.backgroundColor = '#37c978';
+        result.style.color = '#fff';
+        status.style.color = "fff";
         clear();
       } else if(numberDrawn > kick) {
-          STATUS.innerHTML = 'O número é maior!';
-          STATUS.STYLE.color = '#de4251';
+        status.innerHTML = 'O número é maior!';
+        status.style.color = '#de4251';
           clear();
       }else if(numberDrawn < kick){
-        STATUS.innerHTML = 'O número é menor!';
-        STATUS.STYLE.color = '#de4251';
+        status.innerHTML = 'O número é menor!';
+        status.style.color = '#de4251';
         clear();
       }
 };
@@ -57,7 +57,7 @@ function playAgain() {
 };
 
 function restart() {
-    document.location.RELOAD(true);
+    document.location.reload(true);
 };
 
 function clear() {
