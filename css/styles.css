@@ -121,9 +121,9 @@ header a h1 {
     font-weight: 300;
 }
 
-/* brn jogar de novo ==============*/
+/* btn jogar de novo ==============*/
 
-.container #btnrestart {
+.container #btnRestart  {
     cursor: pointer;
     border: 0;
     outline: 0;
@@ -135,11 +135,11 @@ header a h1 {
     border-radius: 0.3rem;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
     transition: 0.3s ease-in-out;
-
+    
     display: none;
 }
 
-.container #btnrestart:hover {
+.container #btnRestart:hover {
     background: var(--blue);
     color: var(--width);
 }
