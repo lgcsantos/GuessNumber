@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GuessNumber</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="./js/scripts.js"></script>
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
     </header>
 
     <main class="container"> 
-        <form>
+        <form id="form">
             <label for="kick">Digite o Numero (0 - 10):</label>
             <input type="number" id="kick" max="10" placeholder="0">
 
@@ -30,7 +30,7 @@
             <span id="attempt">tentativas: 0</span>
         </section>
 
-        <button id="btnrestart">Jogar de Novo!</button>
+        <button id="btnRestart" onclick="restart()" >Jogar de Novo!</button>
 
         
     </main>
@@ -38,5 +38,7 @@
     <footer>
         <p>GuessNumber, 2021 &copy;</p>
     </footer>
+
+    <script src="./js/scripts.js"></script>
 </body>
 </html>
