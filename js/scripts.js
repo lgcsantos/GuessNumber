@@ -53,7 +53,7 @@ function handlesubmit(e){
 
 
 function playAgain() {
-    document.getElementById('btnRestart').style.display = 'flex'
+    document.getElementById('btnRestart' ).style.display = 'flex'
 };
 
 function restart() {
